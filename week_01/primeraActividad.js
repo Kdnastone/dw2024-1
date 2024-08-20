@@ -54,7 +54,7 @@ favoriteMovies.forEach(movie => {
 console.log("3. Incrementar la edad en 1 y volver a mostrarla.");
 let currentAge = 45;
 console.log(`Edad Actual: ${currentAge} años`);
-currentAge += 1; // Addition - Concatenation
+currentAge++;
 console.log(`Edad incrementada en 1: ${currentAge} años`);
 console.log("-----");
 
