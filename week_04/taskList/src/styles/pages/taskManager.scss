@@ -1,0 +1,19 @@
+// Variables
+$color-primary: #d8b4a6;
+$color-secondary: #8c5e3c;
+$color-text: #3f3f3f;
+
+.taskManager {
+  background-color: $color-primary;
+  color: $color-text;
+  padding: 20px;
+  border-radius: 4px;
+
+  .taskList {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    padding: 10px;
+  }
+}

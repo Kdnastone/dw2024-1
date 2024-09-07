@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import TaksButtons from '../molecules/TaksButtons.jsx'; 
 import Input from '../atoms/Input.jsx';
 import Button from '../atoms/Button.jsx';
-import '../../styles/molecules/taskList.css';
+import '../../styles/molecules/taskList.scss';
 
 const TaskList = ({ onCreate, onEdit, onDelete, onView }) => {
   const [tasks, setTasks] = useState([]);
@@ -22,7 +22,7 @@ const TaskList = ({ onCreate, onEdit, onDelete, onView }) => {
     if (newTask.trim()) {
       const newTaskObj = {
         id: Date.now(),
-        text: newTask,
+        title: newTask,
       };
       setTasks([...tasks, newTaskObj]);
       setNewTask('');

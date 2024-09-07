@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Input from '../atoms/Input.jsx';
 import Button from '../atoms/Button.jsx';
-import '../../styles/organisms/taskForm.css';
+import '../../styles/organisms/taskForm.scss';
 
 const TaskForm = ({ onSubmit }) => {
   const [taskText, setTaskText] = useState('');

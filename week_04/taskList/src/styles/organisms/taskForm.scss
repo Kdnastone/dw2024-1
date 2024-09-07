@@ -1,0 +1,36 @@
+// Variables
+$color-primary: #d8b4a6;
+$color-secondary: #8c5e3c;
+$color-text: #3f3f3f;
+
+.task-form {
+  display: flex;
+  align-items: center;
+
+  .input {
+    margin-right: 10px;
+    flex: 1;
+  }
+
+  .submitBtn {
+    background-color: $color-secondary;
+    color: $color-primary;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($color-secondary, 10%);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    flex-direction: column;
+
+    .input {
+      margin-bottom: 10px;
+    }
+  }
+}

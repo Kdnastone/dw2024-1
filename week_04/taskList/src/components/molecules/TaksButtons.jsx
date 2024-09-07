@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../atoms/Button.jsx';
 import TaskItem from '../atoms/TaskItem.jsx';
-import '../../styles/molecules/taskButtons.css';
+import '../../styles/molecules/taskButtons.scss';
 
 const TaksButtons = ({ task, onDelete, onEdit, onView }) => (
   <div className="taskButtons">
