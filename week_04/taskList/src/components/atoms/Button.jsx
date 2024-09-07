@@ -1,9 +1,12 @@
 import React from "react";
-import '../../styles/button.css';
+import '../../styles/atoms/button.css';
 
-const Button = ({text, onclick,className}) => {
-    <button className={className} onClick={onclick}>
+const Button = ({ text, onclick, className }) => {
+    return (
+      <button className={className} onClick={onclick}>
         {text}
-    </button>
-    };
+      </button>
+    );
+  };
+  
 export default Button;

@@ -1,8 +1,8 @@
-# React + Vite
+Desarrollo de TaskList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este ejercicio fue desarrollado para practicar tanto la estructura del proyecto siguiendo los principios de SOLID y Atomic Design, como el uso de React y Vite. Además, se implementaron Hooks para crear un TaskList que permite realizar operaciones CRUD de manera local.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bibliografía:
+https://egghead.io/blog/building-a-crud-app-with-react-and-local-storage
+https://aptos.dev/en/build/guides/build-e2e-dapp/6-handle-tasks
+https://hooks-guide.netlify.app/rehooks/useLocalStorage
