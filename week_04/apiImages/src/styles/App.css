@@ -1,16 +1,25 @@
-.animal-image {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  margin: 10px;
-}
-
-.image-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.animal-gallery {
-  padding: 20px;
+.App {
   text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: 1.5rem;
+  }
 }
