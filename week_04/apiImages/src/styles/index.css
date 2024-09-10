@@ -7,9 +7,6 @@ html, body {
   color: white;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
 body {
   display: flex;
@@ -17,6 +14,13 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center; 
 }
 
 @media (max-width: 768px) {

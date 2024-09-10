@@ -1,5 +1,5 @@
 button {
-  background-color: #9b59b6; /* Color morado */
+  background-color: #8359b6;
   color: black;
   font-size: 1rem;
   padding: 10px 20px;
@@ -10,13 +10,13 @@ button {
 }
 
 button:hover {
-  background-color: #8e44ad; /* Morado más oscuro al hacer hover */
-  transform: scale(1.05); /* Efecto de agrandar ligeramente al hacer hover */
+  background-color: #8e44ad;
+  transform: scale(1.05);
 }
 
 button:active {
   background-color: #732d91;
-  transform: scale(0.98); /* Efecto de presionar */
+  transform: scale(0.98);
 }
 
 @media (max-width: 768px) {
