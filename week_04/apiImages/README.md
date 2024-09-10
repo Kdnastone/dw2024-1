@@ -1,1 +1,0 @@
-Este es un proyecto para practicar el llamado de imágenes de la API https://freetestapi.com/api/v1/animals usando React-Vite.
