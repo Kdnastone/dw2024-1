@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>Rick and Morty - Personajes al azar</h1>
+      <h1>Rick and Morty - Cinco Personajes al azar</h1>
       <CharacterList characters={characters} />
       <Button text="Actualizar imágenes" onClick={fetchCharacters} />
     </div>
