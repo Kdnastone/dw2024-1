@@ -1,8 +1,7 @@
-# React + Vite
+## Funcionalidades CRUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se han añadido funcionalidades completas de CRUD (Crear, Leer, Actualizar, Eliminar) al proyecto. Estas nuevas características permiten gestionar tareas de manera eficiente dentro de la aplicación.
 
-Currently, two official plugins are available:
+Para implementar estas funcionalidades, se ha utilizado el hook `useState` de React, de acuerdo a la documentación oficial de React sobre `useState` [useState](https://react.dev/reference/react/useState#usestate)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
