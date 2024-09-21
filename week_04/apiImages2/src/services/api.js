@@ -26,7 +26,7 @@ export const getRandomCharacters = async (count = 5) => {
     // Hacer una petición a la API con la página aleatoria
     const allCharacters = await fetch(`https://rickandmortyapi.com/api/character?page=${randomPage}`);
     if (!allCharacters.ok) {
-      throw new Error('Network response was not ok');
+      throw new Error('La respuesta de la red no fue exitosa.');
     }
     const allData = await allCharacters.json();
 
@@ -39,7 +39,7 @@ export const getRandomCharacters = async (count = 5) => {
     // Selecciona los primeros cinco dentro del 'count'
     return shuffled.slice(0, count);
   } catch (error) {
-    console.error('Error fetching characters:', error);
+    console.error('Error al obtener los personajes.', error);
     return [];
   }
 };

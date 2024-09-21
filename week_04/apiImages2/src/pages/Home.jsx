@@ -8,6 +8,7 @@ const Home = () => {
 
   const fetchCharacters = async () => {
     const randomCharacters = await getRandomCharacters();
+    console.log('Nuevos personajes obtenidos:', randomCharacters);
     setCharacters(randomCharacters);
   };
 
