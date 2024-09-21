@@ -5,7 +5,9 @@ const CharacterDescr = ({ character }) => {
     <div className="characterDescr">
       <img src={character.image} alt={character.name} />
       <h3>{character.name}</h3>
-      <p>ID: {character.id}</p>
+      <p>Nombre: {character.name}</p>
+      <p>Estado: {character.status}</p>
+      <p>Especie: {character.species}</p>
     </div>
   );
 };
